@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_compass">
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="ru.mirea.tepsikoevsa.mireaproject.CompassFragment"
+        android:label="fragment_compass"
+        tools:layout="@layout/fragment_compass" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.tepsikoevsa.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_microphone"
+        android:name="ru.mirea.tepsikoevsa.mireaproject.MicrophoneFragment"
+        android:label="fragment_microphone"
+        tools:layout="@layout/fragment_microphone" />
+</navigation>
