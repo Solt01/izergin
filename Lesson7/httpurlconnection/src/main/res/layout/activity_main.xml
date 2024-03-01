@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Поля для отображения информации о городе и регионе -->
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="City: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRegion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCity"
+        android:layout_marginTop="8dp"
+        android:text="Region: "
+        android:textSize="18sp" />
+
+    <!-- Поля для отображения информации о погоде -->
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRegion"
+        android:layout_marginTop="16dp"
+        android:text="Temperature: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTemperature"
+        android:layout_marginTop="8dp"
+        android:text="Description: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDescription"
+        android:layout_marginTop="8dp"
+        android:text="Humidity: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvWindSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHumidity"
+        android:layout_marginTop="8dp"
+        android:text="Wind Speed: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCloudiness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvWindSpeed"
+        android:layout_marginTop="8dp"
+        android:text="Cloudiness: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvPressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCloudiness"
+        android:layout_marginTop="8dp"
+        android:text="Pressure: "
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPressure"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Get Weather" />
+</RelativeLayout>
