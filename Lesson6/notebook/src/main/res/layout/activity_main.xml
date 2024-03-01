@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/fileNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название файла"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/quoteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Цитата"
+        android:layout_below="@id/fileNameEditText"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить данные в файл"
+        android:layout_below="@id/quoteEditText"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Загрузить данные из файла"
+        android:layout_below="@id/saveButton"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>
