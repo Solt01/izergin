@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onBtnWhoAmIClick(View view)
     {
-        tvOut.setText("Мой номер по списку № 26(Наверно)");
+        tvOut.setText("Мой номер по списку № 27");
         // выводим сообщение
         Toast.makeText(this, "Ещё один способ!", Toast.LENGTH_SHORT).show();
     }
