@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         edtText.setText("Здравствуй MIREA!");
 
-        str = String.format("СТУДЕНТ № 26 ГРУППА БИСО-03-19 Количество символов - %d",
+        str = String.format("СТУДЕНТ № 27 ГРУППА БИСО-03-19 Количество символов - %d",
                 edtText.getText().toString().length());
     }
 
