@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "184909088817",
+    "project_id": "lesson8-7112d",
+    "storage_bucket": "lesson8-7112d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184909088817:android:9ba2e560a1c2a1a4bc6d10",
+        "android_client_info": {
+          "package_name": "ru.mirea.tepsikoevsa.mireaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6OyssLCnbcs_SvcVAD1LzZnRIQfRdIR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
